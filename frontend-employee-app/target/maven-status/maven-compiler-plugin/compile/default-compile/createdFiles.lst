@@ -1,0 +1,15 @@
+com\miempresa\empleados\EmployeeApiApplication.class
+com\miempresa\empleados\domain\model\Employee.class
+com\miempresa\empleados\infrastructure\repository\entity\EmployeeEntity.class
+com\miempresa\empleados\infrastructure\mapper\EmployeeMapper.class
+com\miempresa\empleados\application\service\EmployeeService.class
+com\miempresa\empleados\application\port\in\CreateEmployeeUseCase.class
+com\miempresa\empleados\application\port\in\GetEmployeeByIdUseCase.class
+com\miempresa\empleados\infrastructure\repository\EmployeePersistenceAdapter.class
+com\miempresa\empleados\application\port\in\GetAllEmployeesUseCase.class
+com\miempresa\empleados\application\port\out\EmployeeRepositoryPort.class
+com\miempresa\empleados\infrastructure\config\AppConfig.class
+com\miempresa\empleados\shared\dto\EmployeeDTO.class
+com\miempresa\empleados\application\port\in\DeleteEmployeeUseCase.class
+com\miempresa\empleados\infrastructure\repository\EmployeeJpaRepository.class
+com\miempresa\empleados\infrastructure\controller\EmployeeController.class

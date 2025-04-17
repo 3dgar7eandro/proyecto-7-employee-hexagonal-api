@@ -1,0 +1,17 @@
+version: "3.1"
+services:
+  db:
+    image: postgres:14
+    container_name: postgres-employees
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: employees
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
+

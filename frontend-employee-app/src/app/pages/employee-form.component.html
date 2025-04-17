@@ -1,0 +1,32 @@
+<h2>Nuevo Empleado</h2>
+
+<form [formGroup]="employeeForm" (ngSubmit)="onSubmit()" class="employee-form">
+  <mat-form-field appearance="fill">
+    <mat-label>Nombre</mat-label>
+    <input matInput formControlName="firstName" />
+  </mat-form-field>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Apellido</mat-label>
+    <input matInput formControlName="lastName" />
+  </mat-form-field>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Email</mat-label>
+    <input matInput type="email" formControlName="email" />
+  </mat-form-field>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Cargo</mat-label>
+    <input matInput formControlName="position" />
+  </mat-form-field>
+
+  <button mat-raised-button color="primary" type="submit" [disabled]="employeeForm.invalid">
+    Guardar
+  </button>
+
+  <!-- Botón para volver -->
+  <button mat-button color="accent" [routerLink]="['/employees']" style="margin-left: 8px;">
+    Volver al listado
+  </button>
+</form>
