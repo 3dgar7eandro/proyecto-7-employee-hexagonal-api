@@ -83,12 +83,7 @@ GitHub: [@3dgar7eandro](https://github.com/3dgar7eandro)
 Correo: edgarleandro37@outlook.es  
 LinkedIn: [linkedin.com/in/edgar-nunez-pinon](https://www.linkedin.com/in/edgar-n%C3%BA%C3%B1ez-pi%C3%B1%C3%B3n/)
 
----
-
-## 📌 Notas
-
-Este proyecto está diseñado siguiendo buenas prácticas y principios SOLID.  
-Es ideal para demostrar habilidades en desarrollo full-stack profesional, tanto para entrevistas como para portafolio.
+--- 
 
 
 📌 Notas
